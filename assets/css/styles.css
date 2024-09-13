@@ -1,0 +1,111 @@
+body{
+    background-color: #121212;
+}
+
+#Head-Section {
+    background-image: url("../img/vistasantiago.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-color: black;
+}
+
+a{
+    text-decoration: none; /* Quita la línea subrayada */
+    color: #734380; /* Cambia el color del enlace */
+    font-style: italic;
+}
+
+.scale-effect:hover{
+    transform: scale(1.05);
+}
+
+#habilidades-section, #sobre-mi-section, #formacion-section, #cabecera-section, #experiencia-section, #portafolio-section {
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-color: black;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+
+#cabecera-section{
+    background-image: url("../img/vistasantiago.jpeg");
+    height: 300px;
+    background-position-y: top;
+    font-size: 60pt;
+}
+
+.width-ajustado{
+    margin: 1%;
+    width: 90%;
+    gap: 1%;
+}
+
+.scaled-icon{
+    transform: scale(1.4);
+}
+
+section >h2{
+    padding: 0 20px 20px 20px;
+    font-size: 45pt;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    padding: 5% 20%;
+    gap: 10%;
+}
+
+.carde, .habilidad-card{
+    background-color: rgba(240, 255, 255, 0.7);
+    border-radius: 50%;
+    font-size: 12pt;
+    width: 150px;
+    height: 150px;
+}
+
+.habilidad-card:hover, .formacion-card:hover{
+    transform: scale(1.025);
+}
+
+.carde > i{
+    margin-bottom: 15%;
+}
+
+.carde > p{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.formacion-card{
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    background-color:darkslategrey;
+    border-radius: 1rem;
+    width: 80%;
+}
+
+.informacion-horizontal{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-mi-foto{
+    border-radius: 5%;
+}
+
+.habilidades-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+

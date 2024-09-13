@@ -2,6 +2,7 @@
 
 Bienvenido/a al entregable de Prueba del Primer módulo de Desarrollo Web Fullstack con Java Script.
 En este repositorio podrás encontrar mi CV y en este ReadMe podrás encontrar los proyectos a los que hice fork de mis compañeros/as.
+Además, podrás acceder directamente a mi cv desde: https://mralexanderk.github.io/
 
 Fork 1:
 El primer Fork fue hecho a: https://github.com/MatiCR6284/MatiCR6284.github.io 
